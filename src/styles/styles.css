@@ -1,0 +1,43 @@
+* {
+  font-family: "Karla", sans-serif;
+  box-sizing: border-box;
+  --primary--color: #18a4fc;
+}
+
+body {
+  margin: 0;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background: linear-gradient(90deg, #0488da, var(--primary--color));
+  padding-block: 2rem;
+  text-align: center;
+}
+
+.header--title {
+  font-size: 2rem;
+  font-weight: 1000;
+  color: white;
+  margin: 0;
+}
+
+.btn {
+  font: inherit;
+  background-color: var(--primary--color);
+  color: white;
+  border: none;
+  width: 10rem;
+  margin: 0 auto;
+  padding: 1rem;
+  border-radius: 25px;
+  transition: all 0.1s ease-in;
+}
+
+.btn:hover {
+  background-color: #0488da;
+}

@@ -1,0 +1,35 @@
+.player--turn {
+  margin: auto;
+  margin-block: 0 2rem;
+}
+
+.box--container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  list-style: none;
+  gap: 10px;
+  width: 16rem;
+  padding: 0;
+  margin: auto;
+  background-color: var(--primary--color);
+}
+
+.box {
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.box span.player--symbol {
+  margin: 0;
+  color: #0488da;
+}
+
+.game-result {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
